@@ -16,3 +16,12 @@
 .press {
     padding: 1rem 2rem;
 }
+.author {
+    float: right;
+    text-decoration: none;
+    color: $dark;
+    &:hover {
+        text-decoration: underline;
+        color: $dark-hover;
+    }
+}
