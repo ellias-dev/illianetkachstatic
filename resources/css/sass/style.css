@@ -67,8 +67,21 @@ body {
   background-color: hsl(0, 0%, 95%);
 }
 
+.page-title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
 h3 {
   font-size: 1.5rem;
+}
+
+.breaking {
+  display: block;
+  width: 100%;
+  height: 7rem;
+  background-color: hsl(0, 0%, 75%);
 }
 
 .date {

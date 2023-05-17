@@ -7,9 +7,19 @@
 body {
     background-color: $background;
 }
-
+.page-title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
 h3 {
     font-size: 1.5rem;
+}
+.breaking {
+    display: block;
+    width: 100%;
+    height: 7rem;
+    background-color: $placeholder;
 }
 .date {
     margin-bottom: 0;
