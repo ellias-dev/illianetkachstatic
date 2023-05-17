@@ -1,0 +1,19 @@
+footer {
+    background-color: $dark;
+    color: $light;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.footer-connect {
+    padding: 1rem 0;
+    a {
+        color: $light;
+        font-size: 2rem;
+        &:hover {
+            color: $light-hover;
+        }
+    }
+    
+    
+}

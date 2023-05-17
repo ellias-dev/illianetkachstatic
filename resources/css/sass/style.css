@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+h1 {
+  display: inline;
+  font-family: "Oswald";
+  font-size: 1.8rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: 0 0 0 1.5rem;
+}
+
+.menu a {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  margin: 0 1rem;
+}
+
+footer {
+  background-color: hsl(0, 0%, 25%);
+  color: hsl(0, 0%, 90%);
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.footer-connect {
+  padding: 1rem 0;
+}
+.footer-connect a {
+  color: hsl(0, 0%, 90%);
+  font-size: 2rem;
+}
+.footer-connect a:hover {
+  color: hsl(0, 0%, 70%);
+}
+
+.contact-banner {
+  background-color: hsl(0, 0%, 25%);
+  padding: 1rem;
+}
+.contact-banner a {
+  text-decoration: none;
+  color: hsl(0, 0%, 90%);
+  margin: 0 1rem;
+  font-size: 1.2rem;
+}
+.contact-banner a:hover {
+  color: hsl(0, 0%, 70%);
+}
+
+.press {
+  padding: 1rem 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.date {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.section {
+  padding: 1.5rem 1rem;
+}
+
+.button {
+  display: inline-block;
+  color: hsl(0, 0%, 25%);
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 1px hsl(0, 0%, 25%) solid;
+  border-radius: 10px;
+  margin: 1rem 1rem 1rem 0;
+}
+.button:hover {
+  box-shadow: inset 0 1px 3px hsl(0, 0%, 25%);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+.contact-banner {
+    background-color: $dark;
+    padding: 1rem;
+    a {
+        text-decoration: none;
+        color: $light;
+        margin: 0 1rem;
+        &:hover {
+            color: $light-hover;
+        }
+        font: {
+            size: 1.2rem;
+        }
+    }
+}
+.press {
+    padding: 1rem 2rem;
+}
