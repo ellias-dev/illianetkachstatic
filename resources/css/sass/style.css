@@ -107,4 +107,9 @@ h3 {
   box-shadow: inset 0 1px 3px hsl(0, 0%, 25%);
 }
 
+.eventlist {
+  border-bottom: 1px solid hsl(0, 0%, 25%);
+  padding: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
