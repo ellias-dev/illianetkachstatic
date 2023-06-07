@@ -63,6 +63,20 @@ footer {
   color: hsl(0, 0%, 15%);
 }
 
+.minivideo {
+  width: 280px;
+  padding: 0.5rem;
+  margin: 2rem auto;
+}
+.minivideo:hover {
+  cursor: pointer;
+  background-color: beige;
+}
+.minivideo p {
+  font-size: 1rem;
+  text-align: center;
+}
+
 body {
   background-color: hsl(0, 0%, 95%);
 }
