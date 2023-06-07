@@ -77,6 +77,20 @@ footer {
   text-align: center;
 }
 
+.contact {
+  padding: 1rem 2rem;
+}
+.contact a {
+  display: block;
+  margin: 1rem 0;
+  width: 7rem;
+  text-decoration: none;
+}
+
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+
 body {
   background-color: hsl(0, 0%, 95%);
 }
