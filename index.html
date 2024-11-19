@@ -1,41 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="./resources/media/favicon.png">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Official Illia Netkach Website">
-    <meta name="keywords" content="Illia Netkach, Ilya Netkach, Violinist, Jazz Violinist, Fusion Violinist, Composer, Ukrainian Violinist, Violinist UAE">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./resources/media/favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Official Illia Netkach Website" />
+    <meta
+      name="keywords"
+      content="Illia Netkach, Ilya Netkach, Violinist, Jazz Violinist, Fusion Violinist, Composer, Ukrainian Violinist, Violinist UAE"
+    />
 
-    <meta property="og:title" content="Illia Netkach">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.illianetkach.com">
-    <meta property="og:description" content="The official website">
+    <meta property="og:title" content="Illia Netkach" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.illianetkach.com" />
+    <meta property="og:description" content="The official website" />
 
-    <link rel="stylesheet" href="./resources/css/bootstrap5.3.0/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="./resources/css/bootstrap5.3.0/css/bootstrap.min.css"
+    />
     <!-- <link rel="preload" href="./resources/css/bootstrap5.3.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
     <!-- <noscript><link rel="stylesheet" href="styles.css"></noscript> -->
-    <script src="./resources/css/bootstrap5.3.0/js/bootstrap.min.js" defer></script>
-    <link rel="stylesheet" href="./resources/css/sass/style.css">
-    <script src="https://kit.fontawesome.com/6350c6b9dc.js" crossorigin="anonymous" defer></script>
+    <script
+      src="./resources/css/bootstrap5.3.0/js/bootstrap.min.js"
+      defer
+    ></script>
+    <link rel="stylesheet" href="./resources/css/sass/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6350c6b9dc.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
     <title>Illia Netkach</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary menu">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./">
-                <img src="./resources/media/logo.svg" alt="Logo"  height="36" class="d-inline-block align-top">
-               <h1>Illia Netkach</h1> 
-              </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto me-0 mb-2 mb-lg-0">
+    <nav class="navbar navbar-dark bg-dark sticky-top menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img
+            src="./resources/media/logo.svg"
+            alt="Logo"
+            height="36"
+            class="d-inline-block align-top"
+          />
+          <h1>Illia Netkach</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Illia Netkach
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./">Home</a>
+                <a class="nav-link active" aria-current="page" href="./"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./news">News</a>
@@ -50,6 +94,9 @@
                 <a class="nav-link" href="./video">Video</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="./lessons">Lessons</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="./bio">Bio</a>
               </li>
               <li class="nav-item">
@@ -58,99 +105,200 @@
               <li class="nav-item">
                 <a class="nav-link" href="./subscribe">Subscribe</a>
               </li>
-              
-              
             </ul>
-            
           </div>
         </div>
+      </div>
     </nav>
     <!-- JUMBOTRON -->
     <!-- <img src="./resources/media/images/sliderhigh.jpg" class="img-fluid" alt="Illia Netkach"> -->
-    <picture><source media="(min-width: 1200px)" srcset="./resources/media/images/sliderhigh.jpg" width="100%" alt="Illia Netkach"><source media="(min-width: 768px)" srcset="./resources/media/images/sliderhigh1200.jpg" width="100%" alt="Illia Netkach"><source media="(min-width: 1200px)" srcset="./resources/media/images/sliderhigh.jpg" width="100%" alt="Illia Netkach"><img src="./resources/media/images/jumbomobile.jpg" width="100%" alt="Illia Netkach"></picture>
+    <picture
+      ><source
+        media="(min-width: 1200px)"
+        srcset="./resources/media/images/sliderhigh.jpg"
+        width="100%"
+        alt="Illia Netkach" />
+      <source
+        media="(min-width: 768px)"
+        srcset="./resources/media/images/sliderhigh1200.jpg"
+        width="100%"
+        alt="Illia Netkach" />
+      <source
+        media="(min-width: 1200px)"
+        srcset="./resources/media/images/sliderhigh.jpg"
+        width="100%"
+        alt="Illia Netkach" />
+      <img
+        src="./resources/media/images/jumbomobile.jpg"
+        width="100%"
+        alt="Illia Netkach"
+    /></picture>
 
-    <!-- CONTACT-BANNER -->
-    <div class="container-fluid d-flex justify-content-around flex-wrap contact-banner">
-        <a href="https://illianetkach.bandcamp.com/" target="_blank"><i class="fa-brands fa-bandcamp"></i> Bandcamp</a>
-        <a href="https://open.spotify.com/artist/4pEkOoCg5mliPxIxPj4uYG?si=7CSgsNiFTt2pRHROOlusVg" target="_blank"><i class="fa-brands fa-spotify"></i> Spotify</a>
-        <a href="https://music.apple.com/us/artist/illia-netkach/1668968997" target="_blank"><i class="fa-brands fa-apple"></i> Apple Music</a>
-        <a href="https://twitter.com/illianetkach" target="_blank"><i class="fa-brands fa-twitter"></i> Twitter</a>
-        <a href="https://www.facebook.com/NetkachIllia" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a>
-        <a href="https://instagram.com/illianetkach" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a> 
-    </div>
     <main>
-        <!-- OUT NOW -->
-        <div class="container-fluid section">
-           <h2>out now</h2> 
-           <div class="row section">
-                <div class="col-12 col-md-5 col-lg-4 col-xl-3"><img src="./resources/media/images/album-artworks/rain-dust-cover.jpg" class="img-fluid thumbn" alt="Rain & Dust"></div>
-                <div class="col-12 col-md-7 col-lg-8 col-xl-9">
-                    <h3>Rain & Dust (Single, 2020)</h3>
-                    <p>I was experimenting with sounds I can get from my electric violin (and so I still do), so don’t be surprised to hear some new things from me. Also, you might hear some oriental motifs, mixed with artificial electronic stuff – well, ideas kept popping up and I didn’t resist. It can sound somewhat eclectic (very unusual for me, isn’t it?) but that’s how I see it for now.</p>
-                    <a href="https://illianetkach.bandcamp.com/" class="button" target="_blank"><i class="fa-brands fa-bandcamp"></i> Bandcamp</a>
-                </div>
-           </div>
+      <!-- OUT NOW -->
+      <div class="container-md section">
+        <h2>out now</h2>
+        <div class="row section">
+          <div class="col-12 col-md-5 col-lg-4 col-xl-3">
+            <img
+              src="./resources/media/images/album-artworks/rain-dust-cover.jpg"
+              class="img-fluid thumbn"
+              alt="Rain & Dust"
+            />
+          </div>
+          <div class="col-12 col-md-7 col-lg-8 col-xl-9">
+            <h3>Rain & Dust (Single, 2020)</h3>
+            <p>
+              I was experimenting with sounds I can get from my electric violin
+              (and so I still do), so don’t be surprised to hear some new things
+              from me. Also, you might hear some oriental motifs, mixed with
+              artificial electronic stuff – well, ideas kept popping up and I
+              didn’t resist. It can sound somewhat eclectic (very unusual for
+              me, isn’t it?) but that’s how I see it for now.
+            </p>
+            <a
+              href="https://illianetkach.bandcamp.com/"
+              class="button"
+              target="_blank"
+              ><i class="fa-brands fa-bandcamp"></i> Bandcamp</a
+            >
+          </div>
         </div>
+      </div>
 
-        <!-- LATEST NEWS -->
-        <div class="container-fluid section">
-            <h2>recent news</h2>
-            <article>
-              <div class="container-fluid section">
-                <p class="date">February 8, 2023</p>
-                <h3>Rebranding in progress...</h3>
-                <p>A major rebranding is in progress. Major means that I changed my name from ILYA to my actual name, ILLIA. It should be easy, but, in fact, it involves a great deal of work and consideration, as different digital distributors and platforms follow their own practices regarding the same music being resubmitted under different artist names. My music will temporarily disappear from most platforms...</p>
-                <a href="./news#rebranding">Read more</a>
-              </div>
-            </article>
+      <!-- LATEST NEWS -->
+      <div class="container-md section">
+        <h2>recent news</h2>
+        <article>
+          <div class="container-fluid section">
+            <p class="date">February 8, 2023</p>
+            <h3>Rebranding in progress...</h3>
+            <p>
+              A major rebranding is in progress. Major means that I changed my
+              name from ILYA to my actual name, ILLIA. It should be easy, but,
+              in fact, it involves a great deal of work and consideration, as
+              different digital distributors and platforms follow their own
+              practices regarding the same music being resubmitted under
+              different artist names. My music will temporarily disappear from
+              most platforms...
+            </p>
+            <a href="./news#rebranding">Read more</a>
+          </div>
+        </article>
 
-            <article>
-              <div class="container-fluid section">
-                <p class="date">May 31, 2016</p>
-                <h3>Ukrainian’s jazz band mesmerized Middle Eastern audience</h3>
-                <p>Since olden times, Ukrainians have been known for their musicality – and not just in terms of folk music. Ukrainians don’t sit by and ignore modern music. It isn’t only about winning European contests; our performers are well-known even in the Middle East.</p>
-                <a href="./news#battle">Read more</a>
-              </div>
-            </article>
+        <article>
+          <div class="container-md section">
+            <p class="date">May 31, 2016</p>
+            <h3>Ukrainian’s jazz band mesmerized Middle Eastern audience</h3>
+            <p>
+              Since olden times, Ukrainians have been known for their musicality
+              – and not just in terms of folk music. Ukrainians don’t sit by and
+              ignore modern music. It isn’t only about winning European
+              contests; our performers are well-known even in the Middle East.
+            </p>
+            <a href="./news#battle">Read more</a>
+          </div>
+        </article>
 
-             <article>
-              <div class="container-fluid section">
-                <p class="date">September 9, 2015</p>
-                <h3>Sur Le Fil</h3>
-                <p>"Sur Le Fil" (OST "Le Fabuleux Destin d'Amélie Poulain" / "Amelie") Composer - Yann Tiersen Arranged and performed by Illia Netkach (Ukraine) on violin, Nadia Lopchynska (Ukraine) on piano and Ryan John (Bahrain) on drums. Performed, recorded, mixed and mastered in Kingdom of Bahrain 7/09-11/09/2015.</p>
-                <a href="./news#surlefil">Read more</a>
-              </div>
-            </article>
+        <article>
+          <div class="container-md section">
+            <p class="date">September 9, 2015</p>
+            <h3>Sur Le Fil</h3>
+            <p>
+              "Sur Le Fil" (OST "Le Fabuleux Destin d'Amélie Poulain" /
+              "Amelie") Composer - Yann Tiersen Arranged and performed by Illia
+              Netkach (Ukraine) on violin, Nadia Lopchynska (Ukraine) on piano
+              and Ryan John (Bahrain) on drums. Performed, recorded, mixed and
+              mastered in Kingdom of Bahrain 7/09-11/09/2015.
+            </p>
+            <a href="./news#surlefil">Read more</a>
+          </div>
+        </article>
 
-            <article>
-              <div class="container-fluid section">
-                <p class="date">February 3, 2014</p>
-                <h3>"Fête de la Musique - 2012", Kharkiv, Ukraine</h3>
-                <p>The Fête de la Musique, also known as Make Music Day or World Music Day, is an annual music celebration taking place on June 21. The concept of an all-day musical celebration on the days of the solstice, was originated by the French Minister of Culture, Jack Lang. The festival later became celebrated in 120 countries around the world.</p>
-                <a href="./news#fdlm">Read more</a>
-              </div>
-            </article>
-            
+        <article>
+          <div class="container-md section">
+            <p class="date">February 3, 2014</p>
+            <h3>"Fête de la Musique - 2012", Kharkiv, Ukraine</h3>
+            <p>
+              The Fête de la Musique, also known as Make Music Day or World
+              Music Day, is an annual music celebration taking place on June 21.
+              The concept of an all-day musical celebration on the days of the
+              solstice, was originated by the French Minister of Culture, Jack
+              Lang. The festival later became celebrated in 120 countries around
+              the world.
+            </p>
+            <a href="./news#fdlm">Read more</a>
+          </div>
+        </article>
+      </div>
+
+      <!-- PRESS -->
+      <div class="container-md section">
+        <h2>press</h2>
+        <div class="row">
+          <div class="col-12 col-md-6 press">
+            "Ilya Netkach stands without any ifs and buts to his instrument and
+            his music. I AM is that what makes him. Either one stands for his
+            music or not. An intermediate it does not allow..."<br />
+            <a
+              href="http://www.smooth-jazz.de/firstview/Netkach/IAm.htm"
+              class="author"
+              target="_blank"
+              >© <i>Hans-Bernd Hulsmann, "Smooth & Soul"</i></a
+            >
+          </div>
+          <div class="col-12 col-md-6 press">
+            "Netkach stays frank and spontaneous in the moment while choosing
+            each note with care, and the result is an exotic work that feels
+            over in a blink, but still says a lot in a short time."<br />
+            <a
+              href="https://www.allaboutjazz.com/i-am-ilya-netkach-by-geno-thackara"
+              class="author"
+              target="_blank"
+              >© <i>Geno Thackara, "All About Jazz"</i></a
+            >
+          </div>
         </div>
-
-        <!-- PRESS -->
-        <div class="container-fluid section">
-            <h2>press</h2>
-            <div class="row">
-                <div class="col-12 col-md-6 press">
-                  "Ilya Netkach stands without any ifs and buts to his instrument and his music. I AM is that what makes him. Either one stands for his music or not. An intermediate it does not allow..."<br />
-                    <a href="http://www.smooth-jazz.de/firstview/Netkach/IAm.htm" class='author' target="_blank">© <i>Hans-Bernd Hulsmann, "Smooth & Soul"</i></a>
-                </div>
-                <div class="col-12 col-md-6 press">
-                  "Netkach stays frank and spontaneous in the moment while choosing each note with care, and the result is an exotic work that feels over in a blink, but still says a lot in a short time."<br />
-                  <a href="https://www.allaboutjazz.com/i-am-ilya-netkach-by-geno-thackara" class='author' target="_blank">© <i>Geno Thackara, "All About Jazz"</i></a>
-                </div>
-            </div>
-        </div>
+      </div>
     </main>
     <footer class="container-fluid">
-      <div class="footer-connect mx-auto col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5 d-flex justify-content-around flex-wrap"><a href="https://illianetkach.bandcamp.com/" target="_blank" alt="Bandcamp"><i class="fa-brands fa-bandcamp" title="Bandcamp"></i></a><a href="https://open.spotify.com/artist/4pEkOoCg5mliPxIxPj4uYG?si=7CSgsNiFTt2pRHROOlusVg" target="_blank" alt="Spotify"><i class="fa-brands fa-spotify" title="Spotify"></i></a><a href="https://music.apple.com/us/artist/illia-netkach/1668968997" target="_blank" alt="Apple Music"><i class="fa-brands fa-itunes" title="iTunes/Apple Music"></i></a><a href="https://twitter.com/illianetkach" target="_blank" alt="Twitter"><i class="fa-brands fa-twitter" title="Twitter"></i></a><a href="https://facebook.com/NetkachIllia" target="_blank" alt="Facebook"><i class="fa-brands fa-facebook-f" title="Facebook"></i></a><a href="https://instagram.com/illianetkach" target="_blank" alt="Instagram"><i class="fa-brands fa-instagram" title="Instagram"></i></a></div>
-      © 2023 Illia Netkach. All Rights Reserved
+      <div
+        class="footer-connect mx-auto col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5 d-flex justify-content-around flex-wrap"
+      >
+        <a
+          href="https://illianetkach.bandcamp.com/"
+          target="_blank"
+          alt="Bandcamp"
+          ><i class="fa-brands fa-bandcamp" title="Bandcamp"></i></a
+        ><a
+          href="https://open.spotify.com/artist/4pEkOoCg5mliPxIxPj4uYG?si=7CSgsNiFTt2pRHROOlusVg"
+          target="_blank"
+          alt="Spotify"
+          ><i class="fa-brands fa-spotify" title="Spotify"></i></a
+        ><a
+          href="https://music.apple.com/us/artist/illia-netkach/1668968997"
+          target="_blank"
+          alt="Apple Music"
+          ><i class="fa-brands fa-itunes" title="iTunes/Apple Music"></i></a
+        ><a
+          href="https://www.facebook.com/illianetkach.official/"
+          target="_blank"
+          alt="Facebook"
+          ><i class="fa-brands fa-facebook-f" title="Facebook"></i></a
+        ><a
+          href="https://instagram.com/illianetkach"
+          target="_blank"
+          alt="Instagram"
+          ><i class="fa-brands fa-instagram" title="Instagram"></i
+        ></a>
+        <a
+          href="https://www.youtube.com/@illianetkach"
+          target="_blank"
+          alt="YouTube"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+      </div>
+      © 2025 Illia Netkach. All Rights Reserved
     </footer>
-</body>
+  </body>
 </html>

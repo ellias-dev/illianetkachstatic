@@ -5,10 +5,16 @@
 @import './pages/home.scss';
 @import './pages/video.scss';
 @import './pages/contact.scss';
+@import './pages/lessons.scss';
 
 body {
     background-color: $background;
 }
+
+main {
+    padding-top: 1.7rem;
+}
+
 .page-title {
     text-transform: uppercase;
     font-size: 2rem;
@@ -17,12 +23,12 @@ body {
 h3 {
     font-size: 1.5rem;
 }
-.breaking {
-    display: block;
-    width: 100%;
-    height: 7rem;
-    background-color: $placeholder;
-}
+// .breaking {
+//     display: block;
+//     width: 100%;
+//     height: 5rem;
+//     background-color: $placeholder;
+// }
 .date {
     margin-bottom: 0;
     text-transform: uppercase;

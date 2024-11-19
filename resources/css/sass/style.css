@@ -9,7 +9,7 @@ h1 {
 }
 
 .menu {
-  background-color: hsl(0, 0%, 95%) !important;
+  background-color: hsl(0, 0%, 21%) !important;
 }
 .menu a {
   font-family: "Oswald";
@@ -18,7 +18,7 @@ h1 {
 }
 
 footer {
-  background-color: hsl(0, 0%, 25%);
+  background-color: hsl(0, 0%, 21%);
   color: hsl(0, 0%, 90%);
   text-align: center;
   padding-bottom: 1rem;
@@ -36,7 +36,7 @@ footer {
 }
 
 .contact-banner {
-  background-color: hsl(0, 0%, 25%);
+  background-color: hsl(0, 0%, 21%);
   padding: 1rem;
 }
 .contact-banner a {
@@ -56,7 +56,7 @@ footer {
 .author {
   float: right;
   text-decoration: none;
-  color: hsl(0, 0%, 25%);
+  color: hsl(0, 0%, 21%);
 }
 .author:hover {
   text-decoration: underline;
@@ -73,7 +73,7 @@ footer {
   background-color: beige;
 }
 .minivideo a {
-  color: hsl(0, 0%, 25%);
+  color: hsl(0, 0%, 21%);
 }
 .minivideo p {
   font-size: 1rem;
@@ -94,8 +94,64 @@ footer {
   margin-bottom: 2rem;
 }
 
+.wbutton {
+  display: block;
+  margin: 1rem auto;
+  background-color: green;
+  box-sizing: border-box;
+  border-radius: 25px;
+  width: max-content;
+  color: white;
+  padding: 5px 21px;
+}
+.wbutton:hover {
+  background-color: rgb(1, 59, 1);
+}
+
+.center-text {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.qrcode {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.text-alone-center {
+  display: block;
+  width: fit-content;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 100 px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px grey;
+}
+
+hr {
+  margin: 1.5rem 0;
+  box-shadow: 0px 0px 5px grey;
+}
+
+cite {
+  display: block;
+  width: 100%;
+  text-align: end;
+}
+
 body {
   background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  padding-top: 1.7rem;
 }
 
 .page-title {
@@ -106,13 +162,6 @@ body {
 
 h3 {
   font-size: 1.5rem;
-}
-
-.breaking {
-  display: block;
-  width: 100%;
-  height: 7rem;
-  background-color: hsl(0, 0%, 75%);
 }
 
 .date {
@@ -127,19 +176,19 @@ h3 {
 
 .button {
   display: inline-block;
-  color: hsl(0, 0%, 25%);
+  color: hsl(0, 0%, 21%);
   text-decoration: none;
   padding: 0.5rem;
-  border: 1px hsl(0, 0%, 25%) solid;
+  border: 1px hsl(0, 0%, 21%) solid;
   border-radius: 10px;
   margin: 1rem 1rem 1rem 0;
 }
 .button:hover {
-  box-shadow: inset 0 1px 3px hsl(0, 0%, 25%);
+  box-shadow: inset 0 1px 3px hsl(0, 0%, 21%);
 }
 
 .eventlist {
-  border-bottom: 1px solid hsl(0, 0%, 25%);
+  border-bottom: 1px solid hsl(0, 0%, 21%);
   padding: 1rem;
 }
 
