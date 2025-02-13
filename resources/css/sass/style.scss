@@ -7,6 +7,10 @@
 @import './pages/contact.scss';
 @import './pages/lessons.scss';
 
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
     background-color: $background;
 }
