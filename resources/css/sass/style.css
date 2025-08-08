@@ -213,4 +213,18 @@ a {
   text-decoration: none;
 }
 
+.separator {
+  display: block;
+  margin: 0.5rem auto;
+  min-width: 200px;
+  width: 50%;
+}
+.separator hr {
+  height: 1px;
+  background-color: hsl(0, 0%, 95%);
+  background: radial-gradient(hsl(0, 0%, 21%), hsl(0, 0%, 95%));
+  border: 0;
+  box-shadow: none;
+}
+
 /*# sourceMappingURL=style.css.map */
