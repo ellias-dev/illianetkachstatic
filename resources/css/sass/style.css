@@ -146,6 +146,10 @@ cite {
   text-align: end;
 }
 
+.lighthighlight {
+  font-weight: 500;
+}
+
 html {
   scroll-behavior: smooth;
 }
